@@ -1,4 +1,6 @@
 import React from "react";
+import profile from "../assets/profile.jpg";
+import resume from "../assets/AaronElam_resume.pdf";
 
 export default function Card() {
   return (
@@ -14,7 +16,7 @@ export default function Card() {
             <div class="flex flex-col md:flex-row gap-6 md:gap-8">
               <img
                 class="rounded-full border-4 border-gray-300 h-24 w-24 mx-auto hover:border-indigo-400"
-                src="https://avatars.githubusercontent.com/u/44043565"
+                src={profile}
                 alt=""
               />
               <div class="flex flex-col text-center md:text-left">
@@ -41,7 +43,7 @@ export default function Card() {
                   </a>
                   <a
                     class="hover:cursor-pointer hover:text-indigo-400"
-                    href="../resources/AaronElam_resume.pdf"
+                    href={resume}
                     download="AaronElam_resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
