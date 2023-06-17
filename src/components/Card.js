@@ -35,7 +35,7 @@ export default function Card() {
                   </a>
                   <a
                     class="hover:cursor-pointer hover:text-indigo-400"
-                    href="https://www.github.com/5pez/"
+                    href="https://www.github.com/burzt/"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
