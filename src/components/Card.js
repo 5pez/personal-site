@@ -22,7 +22,7 @@ export default function Card() {
               <div class="flex flex-col text-center md:text-left">
                 <div class="font-medium text-lg text-gray-800">Aaron Elam</div>
                 <div class="text-gray-500 mb-3 whitespace-nowrap">
-                  Software Developer
+                  Software Engineer
                 </div>
                 <div class="flex flex-row gap-3 text-gray-800 my-auto text-2xl mx-auto md:mx-0">
                   <a
